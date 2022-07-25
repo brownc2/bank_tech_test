@@ -18,7 +18,7 @@ I would like to have to ability to check my current bank balance and also the cr
 
 # Class design
 
-
+```
 ┌────────────────────────────┐
 │ Bank_account               │
 │                            │
@@ -35,6 +35,7 @@ I would like to have to ability to check my current bank balance and also the cr
 │ - user_balance          │
 │ - print_user_balance    │
 └─────────────────────────┘
+```
         
 # Specification
 
@@ -49,12 +50,12 @@ And a deposit of 2000 on 13-01-2023
 And a withdrawal of 500 on 14-01-2023
 When she prints her bank statement
 Then she would see
-
+```
 date || credit || debit || balance
 14/01/2023 || || 500.00 || 2500.00
 13/01/2023 || 2000.00 || || 3000.00
 10/01/2023 || 1000.00 || || 1000.00
-
+```
 
             
     
