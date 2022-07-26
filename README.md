@@ -1,21 +1,24 @@
 # Steps to setup jest.
-
+```
 install Jest: npm install --save-dev jest
-
+```
+```
 To run jest: npm test
-
+```
 
 # User Story
-
+```
 As a user
 I would like to be able to deposit money into my bank account.
-
+```
+```
 As a user 
 I would like to be able to withdraw money from my bank account
-
+```
+```
 As a user 
 I would like to have to ability to check my current bank balance and also the credit and debit transaction I have done to date.
-
+```
 # Class design
 
 ```

@@ -44,9 +44,9 @@ describe('bank_balance', () => {
 
  it('if the account has 200 in the account and you try to withdraw 50, no error will be shown', () => {
   const bank = new Bank_balance();        
-  bank.deposit(100)
+  bank.deposit(200)
   bank.withdraw(50);
-  expect(bank.account_total()).toBe(50)
+  expect(bank.account_total()).toBe(150)
  }); 
  it("shows a withdrawal, balance and date on statement", () => {
   const bank = new Bank_balance(); 

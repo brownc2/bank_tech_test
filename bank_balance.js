@@ -35,6 +35,7 @@ class Bank_balance {
       debit: this.debit,
       balance: this.account,
     });
+    console.log(this.statement)
     }
   }
   
@@ -44,4 +45,5 @@ class Bank_balance {
 }
 
 module.exports = Bank_balance;
+
 
