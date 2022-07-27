@@ -29,7 +29,7 @@ I would like to have to ability to check my current bank balance and also the cr
 
 ```
 ┌────────────────────────────┐
-│ Bank_account Class         │
+│ BankBalance Class          │
 │                            │
 │ - deposit                  │
 │ - withdraw                 │
