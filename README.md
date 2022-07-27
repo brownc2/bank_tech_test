@@ -1,12 +1,9 @@
 # Technologies used
 
-```
 Eslint
 Jest
 Node
 Npm
-
-```
 
 # Steps to setup.
 
@@ -16,22 +13,10 @@ Clone repo
 https://github.com/brownc2/bank_tech_test.git
 ```
 
-Install npm
+Install Jest
 
 ```
 npm install
-```
-
-Create a package.json
-
-```
-npm init
-```
-
-Install jest
-
-```
-npm install -g test
 ```
 
 Install ESlint
@@ -43,23 +28,26 @@ npm init @eslint/config
 Run jest
 
 ```
-Jest
+npm test
 ```
 
 # User Story
 
 ```
 As a user
+So I can add funds to my bank account.
 I would like to be able to deposit money into my bank account.
 ```
 
 ```
 As a user
+So I can withdraw funds from my bank account.
 I would like to be able to withdraw money from my bank account
 ```
 
 ```
 As a user
+So I can check how much money I have withdrawn and added.
 I would like to have to ability to check my current bank balance and also the credit and debit transaction I have done to date.
 ```
 
