@@ -6,23 +6,21 @@ class BankBalance {
   }
   // This function allows the user to add funds to the account.
   deposit(user_input) {
-    const date = new Date().toLocaleDateString();
     this.credit = user_input;
     this.account += this.credit;
     this.statement.unshift(
-      `\n${date} || ${this.credit}.00 ||  || ${this.account}.00`
+      `\n${this.date} || ${this.credit}.00 ||  || ${this.account}.00`
     );
   }
   // This function allows the user to withdraw funds from the account.
   withdraw(user_input) {
-    const date = new Date().toLocaleDateString();
     if (this.account <= 0) {
       throw new Error("Sorry you have insufficient funds");
     } else {
       this.debit = user_input;
       this.account -= this.debit;
       this.statement.unshift(
-        `\n${date} || || ${this.debit}.00 || ${this.account}.00`
+        `\n${this.date} || || ${this.debit}.00 || ${this.account}.00`
       );
     }
   }
