@@ -1,7 +1,5 @@
 class BankBalance {
   constructor() {
-    this.debit = 0;
-    this.credit = 0;
     this.account = 0;
     this.statement = [];
     this.date = new Date().toLocaleDateString();
