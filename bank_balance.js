@@ -34,7 +34,7 @@ class BankBalance {
   }
   // This function allows us to view the statement of the account.
   user_statement() {
-    let header = `date || credit || debit || balance`;
+    let header = "date || credit || debit || balance";
 
     this.statement = this.statement.toString();
     this.statement = this.statement.split(", ");
