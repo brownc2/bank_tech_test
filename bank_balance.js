@@ -41,8 +41,7 @@ class BankBalance {
 
     for (let index = 0; index < this.statement.length; ++index) {
       const element = this.statement[index];
-      console.log(header);
-      console.log(element);
+
       return (header += element);
     }
   }
