@@ -31,6 +31,12 @@ Run jest
 npm test
 ```
 
+Run test coverage
+
+```
+npx jest --coverage
+```
+
 # User Story
 
 ```
